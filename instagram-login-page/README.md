@@ -4,21 +4,13 @@ Este projeto tem como finalidade reconstruir a página inicial de login do Insta
 
 ### Demonstração
 
-- Desktop ​ :computer:
+| - Desktop ​ :computer: |
+| ------------ |
+| <img src="demonstracao/desktop_web_page.png"> |
 
-![desktop_web_page](WillJR183.github.com/frontend-projects/instagram-login-page/demonstracao/desktop_web_page.png)
-
-
-
-- Tablet
-
-![tablet_web_page](WillJR183.github.com/frontend-projects/instagram-login-page/demonstracao/tablet_web_page.png)
-
-
-
-- Mobile  :mobile_phone_off:
-
-![mobile_web_page](WillJR183.github.com/frontend-projects/instagram-login-page/demonstracao/mobile_web_page.png)
+|- Tablet | - Mobile  :mobile_phone_off: |
+| ------------- | ------------- | 
+| <img src="demonstracao/tablet_web_page.png"> | <img src="demonstracao/mobile_web_page.png"> |
 
 ### Tecnologias
 
