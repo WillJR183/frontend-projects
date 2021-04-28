@@ -12,14 +12,16 @@
     <title>NETFLIX CLONE</title>
 </head>
 <body>
+
     <header>
         <div class="container">
-            <h2 class="brand">NETFLIX</h2>
+            <img class="brand" src="img/netflix-brand.svg" alt="Logo da Netflix">
             <nav>
+                <a href="#"><i class="fas fa-search"></i></a>
                 <a href="#">Inicio</a>
                 <a href="#">Filmes</a>
                 <a href="#">Séries</a>
-                <a href="#">Documentários</a>
+                <a><i class="fas fa-user-cog"></i></a>
             </nav>
         </div>
     </header>
@@ -27,29 +29,44 @@
     <main>
         <div class="poster">
             <div class="container">
+                
                 <h3 class="title-poster">STRANGER THINGS</h3>
                 <p class="synopsis">A pequena cidade de Hawkins é cenário de estranhos acontecimentos.
                 Com o desaparecimento de um garoto, a cidade toda participa nas buscas. Mas o que encontram 
                 é uma menina com poderes sobrenaturais.  
                 </p>
+                
+                <div class="info">
+                    <h4 class="info-title">INFORMAÇÕES</h4>
+                    <progress value="86" max="100"></progress>
+                    <p class="rating">86% dos usuários gostaram</p>
+                    <p class="gender">Sci-fi & Fantasy, Mistério, Drama</p>
+                    <p class="age">2016</p>
+                </div>
+
                 <div class="buttons">
                     <button role="button" class="button"><i class="fas fa-play"></i>ASSISTIR AGORA</button>
                     <button role="button" class="button"><i class="fas fa-list"></i>ADICIONAR A SUA LISTA</button>
                 </div>
+
             </div>
         </div>
     </main>
 
     <div class="carousel">
+        <h2 class="category">Séries populares</h2>
         <div class="owl-carousel owl-theme">
-            <div class="item"><img class="box-capa" src="img/ahs-capa.jpg" alt=""></div>
-            <div class="item"><img class="box-capa" src="img/breaking-bad-capa.jpg" alt=""></div>
-            <div class="item"><img class="box-capa" src="img/dr-house-capa.jpg" alt=""></div>
-            <div class="item"><img class="box-capa" src="img/game-of-thrones-capa.jpg" alt=""></div>
-            <div class="item"><img class="box-capa" src="img/good-doctor-capa.jpg" alt=""></div>
-            <div class="item"><img class="box-capa" src="img/riverdale-capa.jpg" alt=""></div>
-            <div class="item"><img class="box-capa" src="img/twd-capa.jpg" alt=""></div>
-            <div class="item"><img class="box-capa" src="img/vikings-capa.jpg" alt=""></div>
+            <div class="item"><img class="box-capa" src="img/ahs-capa.jpg" alt="capa da série American Horror Story"></div>
+            <div class="item"><img class="box-capa" src="img/breaking-bad-capa.jpg" alt="capa da série Breaking Dead"></div>
+            <div class="item"><img class="box-capa" src="img/dr-house-capa.jpg" alt="capa da série Dr. House"></div>
+            <div class="item"><img class="box-capa" src="img/game-of-thrones-capa.jpg" alt="capa da série Game Of Thrones"></div>
+            <div class="item"><img class="box-capa" src="img/good-doctor-capa.jpg" alt="capa da série Good Doctor"></div>
+            <div class="item"><img class="box-capa" src="img/riverdale-capa.jpg" alt="capa da série Riverdale"></div>
+            <div class="item"><img class="box-capa" src="img/twd-capa.jpg" alt="capa da série The Walking Dead"></div>
+            <div class="item"><img class="box-capa" src="img/vikings-capa.jpg" alt="capa da série Vikings"></div>
+            <div class="item"><img class="box-capa" src="img/falcao_soldado_invernal.jpg" alt="capa da série Falção e o Soldado Invernal"></div>
+            <div class="item"><img class="box-capa" src="img/invincible.jpg" alt="capa da série Invincible"></div>
+            <div class="item"><img class="box-capa" src="img/vanhelsing.jpg" alt="capa da série Van Helsing"></div>
         </div>
     </div>
 
