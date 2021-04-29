@@ -1,7 +1,12 @@
-@media screen and (max-width:700px){
+/* ################ MOBILE ################ */
+@media screen and (max-width:600px){
     header .container {
         display: flex;
         flex-direction: column;
+    }
+
+    header nav {
+        margin-top: 15px;
     }
 
     .poster .button {
@@ -10,8 +15,9 @@
     }
 }
 
+/* ################ TABLET ################ */
 @media screen and (min-width:1000px) {
     .poster .synopsis {
-        width: 60%;
+        width: 70%;
     }
 }
