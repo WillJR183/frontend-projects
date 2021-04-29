@@ -2,13 +2,19 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <!-- Meu Style CSS -->
     <link rel="stylesheet" href="style/main.css">
     <!-- Arquivos Owl CSS -->
     <link rel="stylesheet" href="style/owl/owl.carousel.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
     <!-- Arquivos media queries -->
     <link rel="stylesheet" href="style/responsive.css">
+    <!-- Arquivos JS -->
+    <script defer src="https://kit.fontawesome.com/223efe5a65.js" crossorigin="anonymous"></script>
+    <script defer src="js/owl/jquery.min.js"></script>
+    <script defer src="js/owl/owl.carousel.min.js"></script>
+    <script defer src="js/setup.js"></script>
     <title>NETFLIX CLONE</title>
 </head>
 <body>
@@ -46,7 +52,7 @@
 
                 <div class="buttons">
                     <button role="button" class="button"><i class="fas fa-play"></i>ASSISTIR AGORA</button>
-                    <button role="button" class="button"><i class="fas fa-list"></i>ADICIONAR A SUA LISTA</button>
+                    <button role="button" class="button"><i class="fas fa-list"></i>ADICIONAR À LISTA</button>
                 </div>
 
             </div>
@@ -56,24 +62,40 @@
     <div class="carousel">
         <h2 class="category">Séries populares</h2>
         <div class="owl-carousel owl-theme">
-            <div class="item"><img class="box-capa" src="img/ahs-capa.jpg" alt="capa da série American Horror Story"></div>
-            <div class="item"><img class="box-capa" src="img/breaking-bad-capa.jpg" alt="capa da série Breaking Dead"></div>
-            <div class="item"><img class="box-capa" src="img/dr-house-capa.jpg" alt="capa da série Dr. House"></div>
-            <div class="item"><img class="box-capa" src="img/game-of-thrones-capa.jpg" alt="capa da série Game Of Thrones"></div>
-            <div class="item"><img class="box-capa" src="img/good-doctor-capa.jpg" alt="capa da série Good Doctor"></div>
-            <div class="item"><img class="box-capa" src="img/riverdale-capa.jpg" alt="capa da série Riverdale"></div>
-            <div class="item"><img class="box-capa" src="img/twd-capa.jpg" alt="capa da série The Walking Dead"></div>
-            <div class="item"><img class="box-capa" src="img/vikings-capa.jpg" alt="capa da série Vikings"></div>
-            <div class="item"><img class="box-capa" src="img/falcao_soldado_invernal.jpg" alt="capa da série Falção e o Soldado Invernal"></div>
-            <div class="item"><img class="box-capa" src="img/invincible.jpg" alt="capa da série Invincible"></div>
-            <div class="item"><img class="box-capa" src="img/vanhelsing.jpg" alt="capa da série Van Helsing"></div>
+            <div class="item"><img class="box-capa" src="img/series/ahs-capa.jpg" alt="capa da série American Horror Story"></div>
+            <div class="item"><img class="box-capa" src="img/series/breaking-bad-capa.jpg" alt="capa da série Breaking Dead"></div>
+            <div class="item"><img class="box-capa" src="img/series/dr-house-capa.jpg" alt="capa da série Dr. House"></div>
+            <div class="item"><img class="box-capa" src="img/series/game-of-thrones-capa.jpg" alt="capa da série Game Of Thrones"></div>
+            <div class="item"><img class="box-capa" src="img/series/good-doctor-capa.jpg" alt="capa da série Good Doctor"></div>
+            <div class="item"><img class="box-capa" src="img/series/riverdale-capa.jpg" alt="capa da série Riverdale"></div>
+            <div class="item"><img class="box-capa" src="img/series/twd-capa.jpg" alt="capa da série The Walking Dead"></div>
+            <div class="item"><img class="box-capa" src="img/series/vikings-capa.jpg" alt="capa da série Vikings"></div>
+            <div class="item"><img class="box-capa" src="img/series/falcao_soldado_invernal.jpg" alt="capa da série Falção e o Soldado Invernal"></div>
+            <div class="item"><img class="box-capa" src="img/series/invincible.jpg" alt="capa da série Invincible"></div>
+            <div class="item"><img class="box-capa" src="img/series/vanhelsing.jpg" alt="capa da série Van Helsing"></div>
+        </div>
+
+        <h2 class="category">Filmes populares</h2>
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img class="box-capa" src="img/filmes/godzilla-kong.jpg" alt="capa do filme Godzilla vs Kong"></div>
+            <div class="item"><img class="box-capa" src="img/filmes/liga-da-justica.jpg" alt="capa do filme Liga da Justiça de Zack Snyder"></div>
+            <div class="item"><img class="box-capa" src="img/filmes/mortal-kombat.jpg" alt="capa do filme Mortal Kombat"></div>
+            <div class="item"><img class="box-capa" src="img/filmes/na-mira-do-perigo.jpg" alt="capa do filme Na Mira Do Perigo"></div>
+            <div class="item"><img class="box-capa" src="img/filmes/nezha-reborn.jpg" alt="capa do filme Nezha Reborn"></div>
+            <div class="item"><img class="box-capa" src="img/filmes/tom-jerry.jpg" alt="capa do filme Tom e Jerry"></div>
+            <div class="item"><img class="box-capa" src="img/filmes/aves-de-rapina.jpg" alt="capa do filme Aves de Rapina"></div>
+            <div class="item"><img class="box-capa" src="img/filmes/soul.jpg" alt="capa do filme Soul"></div>
+            <div class="item"><img class="box-capa" src="img/filmes/tenet.jpg" alt="capa do filme Tenet"></div>
+            <div class="item"><img class="box-capa" src="img/filmes/bad-boys.jpg" alt="capa do filme Bad Boys Para Sempre"></div>
+            <div class="item"><img class="box-capa" src="img/filmes/resgate.jpg" alt="capa do filme Resgate"></div>
         </div>
     </div>
 
-    <script src="https://kit.fontawesome.com/223efe5a65.js" crossorigin="anonymous"></script>
-    <script src="js/owl/jquery.min.js"></script>
-    <script src="js/owl/owl.carousel.min.js"></script>
-    <script src="js/setup.js"></script>
+    <footer>
+        <div class="container">
+            <p>Created By William Marques</p>
+        </div>
+    </footer>
 
 </body>
 </html>
